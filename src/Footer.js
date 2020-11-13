@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -8,9 +9,8 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        Open-source code{" "}
-      </a>
-      by Sofie Berden
+        Open-source code
+      </a>  by Sofie Berden
     </p>
   );
 }

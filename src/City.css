@@ -1,0 +1,24 @@
+.City {
+  margin-top: 20px;
+}
+.City h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.City h2 {
+  font-size: 20px;
+}
+.City p {
+  font-size: 20px;
+}
+.City button {
+  color: #ffffff;
+  border: none;
+  background: none;
+}
+.City hr {
+  max-width: 150px;
+}
+.City .current-weather {
+  margin: 15px auto;
+}

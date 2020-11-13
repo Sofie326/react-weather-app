@@ -1,0 +1,14 @@
+.Forecast .title {
+  margin: 15px auto;
+}
+.Forecast h2 {
+  text-align: left;
+  font-size: 20px;
+}
+.Forecast .title hr {
+  margin: 0;
+  width: 150px;
+}
+.Forecast .forecast p {
+  margin: 0;
+}

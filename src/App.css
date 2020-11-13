@@ -1,0 +1,22 @@
+.App {
+  border-left: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  margin: 40px auto;
+  max-width: 60%;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.App hr {
+  background: #ffffff;
+  border-radius: 3px;
+  border-style: solid;
+  color: #ffffff;
+  height: 2px;
+}
+.App .col-sm {
+  padding-bottom: 20px;
+}
