@@ -1,29 +1,30 @@
-.City {
+.Weather {
   margin-top: 20px;
 }
-.City h1 {
+.Weather h1 {
   font-size: 40px;
   font-weight: bold;
 }
-.City h2 {
+.Weather h2 {
   font-size: 20px;
 }
-.City h3 {
+.Weather h3 {
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
 }
-.City p {
+.Weather p {
   font-size: 20px;
 }
-.City button {
+.Weather button {
   color: #ffffff;
   border: none;
   background: none;
+  font-size: 20px;
 }
-.City hr {
+.Weather hr {
   max-width: 150px;
 }
-.City .current-weather {
+.Weather .current-weather {
   margin: 15px auto;
 }
