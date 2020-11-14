@@ -40,7 +40,6 @@ export default function Search(props) {
         <input type="text" placeholder="Search" className="input-bar" onChange={handleCity}/>
         <input type="submit" value="🔍" className="search-button" />
       </form>
-      <button>Current Location</button>
       <Weather info={weatherData} />
       <Forecast city={weatherData.city}/>
     </div>
