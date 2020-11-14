@@ -1,0 +1,19 @@
+.Temperature {
+  font-size: 20px;
+}
+.Temperature a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.Temperature a:hover {
+  cursor: default;
+}
+.Temperature .active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.Temperature .active:hover {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -16,12 +16,6 @@
 .Weather p {
   font-size: 20px;
 }
-.Weather button {
-  color: #ffffff;
-  border: none;
-  background: none;
-  font-size: 20px;
-}
 .Weather hr {
   max-width: 150px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Weather.css";
 import FormattedDate from "./FormattedDate";
+import Temperature from "./Temperature";
 
 export default function Weather(props) {
   return (
@@ -19,19 +20,7 @@ export default function Weather(props) {
             />
           </div>
           <div className="col-sm">
-            <p className="temperature">
-              <span>{props.info.temperature} </span>
-              <span >
-                <button className="active">
-                  °C
-                </button>
-                |
-                <button>
-                  {" "}
-                  °F
-                </button>
-              </span>
-            </p>
+            <Temperature celsius={props.info.temperature} />
             <hr />
             <p >{props.info.description}</p>
           </div>
