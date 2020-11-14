@@ -2,6 +2,7 @@ import React, {useState}from "react";
 import axios from "axios";
 import "./Search.css";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 export default function Search(props) {
   const [weatherData, setWeatherData]= useState({ready:false});
@@ -41,6 +42,7 @@ export default function Search(props) {
       </form>
       <button>Current Location</button>
       <Weather info={weatherData} />
+      <Forecast city={weatherData.city}/>
     </div>
 
   );} else{
